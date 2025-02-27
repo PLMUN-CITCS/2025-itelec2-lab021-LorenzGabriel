@@ -16,6 +16,6 @@ def calculate_factorial(n: int) -> int:
     return result
 
 
-if 'name' == "main":
+if __name__ == "__main__":  # Corrected this line
     number = get_non_negative_integer()
     print(f"The factorial of {number} is: {calculate_factorial(number)}")
